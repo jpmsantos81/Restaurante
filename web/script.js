@@ -21,8 +21,8 @@ async function carregar() {
             categoriaDiv = document.createElement("section");
             categoriaDiv.id = prato.categoria;
             categoriaDiv.classList.add("categoria");
-            categoriaDiv.innerHTML = `<h2 class="nome-categorias">${prato.categoria}</h2>`;
-            categoriaDiv.style.backgroundColor = "red";
+            categoriaDiv.innerHTML = `<h2 class="dentro-categoria">${prato.categoria}</h2>`;
+            // categoriaDiv.style.backgroundColor = prato.corCategoria;
             
             pratosCategoria = document.createElement("div");
             pratosCategoria.classList.add("pratos");
