@@ -26,16 +26,28 @@ header{
     background-size: cover;
     background-position: center;
 }
+
 .cardapio{
     margin: 1.5em;
     text-align: center;
 }
-#pratos{
-    margin-top: 3em;
+#pratosDiv section{
+    margin-top: 2em;
+}
+.categoria{
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: rgb(255, 202, 44) !important;
+}
+.nome-categorias{
+    margin-bottom: 1em;
+}
+.pratos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2em;
 }
+
 .prato {
     background-color: white;
     border-radius: 1em;
