@@ -15,6 +15,7 @@ header{
     align-items: center;
     padding: 0 1em;
     top: 0;
+    z-index: 500;
     height: clamp(90px, 15vmin, 250px);
     background-color: rgb(28, 29, 29);
     left: 0;
@@ -98,11 +99,14 @@ header{
     margin: 10px 15px 15px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 696px){
     .banner{
         aspect-ratio: 2 / 1;
     }
     .prato{
         max-width: 80vw;
+    }
+    .categoria h2{
+        text-align: center;
     }
 }
